@@ -22,7 +22,7 @@ function App() {
       <AppContainer>
         <Logo />
         <FlashcardList onFlashcardAnswered={incrementAnsweredCount} />
-        <Footer answeredCount={answeredCount} totalCount={totalFlashcards} /> 
+        <Footer answeredCount={answeredCount} totalCount={totalFlashcards} />
       </AppContainer>
     </>
   );
