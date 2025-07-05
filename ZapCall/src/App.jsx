@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import GlobalStyle from './styles/GlobalStyle';
 import Logo from './components/Logo';
-import FlashcardList from './components/FlashcardList';
+import FlashCardList from './components/FlashCardList';
 import Footer from './components/Footer';
 import flashcardsData from './data/flashcardsData';
 
@@ -21,7 +21,7 @@ function App() {
       <GlobalStyle />
       <AppContainer>
         <Logo />
-        <FlashcardList onFlashcardAnswered={incrementAnsweredCount} />
+        <FlashCardList onFlashcardAnswered={incrementAnsweredCount} />
         <Footer answeredCount={answeredCount} totalCount={totalFlashcards} />
       </AppContainer>
     </>

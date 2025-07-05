@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Flashcard from './Flashcard';
+import Flashcard from './FlashCard';
 import flashcardsData from '../data/flashcardsData';
 
 export default function FlashcardList({ onFlashcardAnswered }) {
