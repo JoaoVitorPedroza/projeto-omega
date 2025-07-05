@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import GlobalStyle from './styles/GlobalStyle';
 import Logo from './components/Logo';
-import FlashCardList from './components/FlashCardList';
+import FlashCardList from './components/FlashcardList'; 
 import Footer from './components/Footer';
 import flashcardsData from './data/flashcardsData';
 
